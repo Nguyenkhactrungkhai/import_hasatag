@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉnh Sửa Hashtag Reels</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Xóa và Thêm Hashtag Reels</h1>
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="fileInput" accept=".txt">
+        </div>
+        <input type="text" id="hashtagsInput" class="form-control mb-3" placeholder="Nhập hashtags để thêm">
+        <div class="d-flex justify-content-center gap-2 mb-3">
+            <button class="btn btn-primary" id="removeHashtags">Xóa Hashtag và 'created by'</button>
+            <button class="btn btn-primary" id="addHashtags">Thêm Hashtag</button>
+            <button class="btn btn-secondary" id="copyToClipboard">Sao Chép vào Clipboard</button>
+        </div>
+        <div class="alert alert-info mt-3" role="alert" id="statusMessage" style="display: none;"></div>
+        <div class="content-area mt-3">
+            <span id="lineCount" class="badge bg-secondary"></span>
+            <pre id="contentPreview" class="pre-scrollable"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

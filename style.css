@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.btn {
+    min-width: 180px; /* Đảm bảo các nút có kích thước đồng đều */
+}
+
+.d-flex {
+    width: 100%; /* Phần tử flex container chiếm toàn bộ chiều rộng của nó */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.pre-scrollable {
+    max-height: 400px;
+    overflow-y: scroll;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.statusMessage {
+    display: none;
+}
+
+.badge {
+    font-size: 16px;
+}
